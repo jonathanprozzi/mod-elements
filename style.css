@@ -1,5 +1,8 @@
+/* color resource: http://cloford.com/resources/colours/500col.htm */
+/* font-family resource: http://cssfontstack.com/oldsites/cssfontstack/ */
+
 body {
-    background-color: black;
-    color: #00ff33;
+    background-color: #262626;
+    color: #4EEE94;
     font-family: monospace;
 }
