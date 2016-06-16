@@ -7,18 +7,18 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-        <header>
-            <div class="header-content">
-                <h2 id="intro-heading">be creative, make changes, save the day!</h2>
-                <p id="instruct">: use your new knowledge of ids and classes and accessing those elements to make changes <em>with javascript!</em><br/>
-                : don't just change the html! a mysterious individual has barred you from accessing the <span id="ind-span">index.html</span> file! <br/>
-                :: well, at least they've barred you from <em>changing</em> it ;]
-                </p>
-                <hr id="hr-head"/> <!-- hr is a horizonal rule (horizontal line) -->
-            </div> <!-- end "header-content" div -->
-        </header>
-
         <div class="main-container">
+            <header>
+                <div class="header-content">
+                    <h2 id="intro-heading">be creative, make changes, save the day!</h2>
+                    <p id="instruct">: use your new knowledge of ids and classes and accessing those elements to make changes <em>with javascript!</em><br/>
+                    : don't just change the html! a mysterious individual has barred you from accessing the <span id="ind-span">index.html</span> file! <br/>
+                    :: well, at least they've barred you from <em>changing</em> it ;]
+                    </p>
+                    <hr id="hr-head"/> <!-- hr is a horizonal rule (horizontal line) -->
+                </div> <!-- end "header-content" div -->
+            </header>
+
             <section id="intro-content">
                 <h2 id="main-heading">the ninja-robot squad homepage!</h2>
                 <p class="main-">hi! welcome to the <span id="leet-page">leet</span>page about the ninja-robot squad! you've probably guessed that we're a group of robots who happen to also be ninjas...<br/>
@@ -46,15 +46,14 @@
                 <hr/>
             </section> <!-- end "intro-content" section -->
 
-                    <div id="div-trans">
+                    <div id="div-trans"> <!-- this is the transmission part -->
                         <span id="inc-trans">[incoming transmission] <span id="terminal-blink">>:_</span><br/>
                         <blockquote id="inc-trans-bq">
                         uh oh, it looks like some mean prankster has somehow teleported into the html file and made some changes.<br/>
                         instead of being about ninja-robots, they've made it about </span><span class="sam-uni">samurai-unicorns</span>!
                         </blockquote>
                         <hr/>
-                    </div>
-
+                    </div> <!-- end "div-trans" div -->
 
                 <div id="call-to-arms">
                     <h3 id="challenge-heading">a new challenger!</h3>
@@ -73,10 +72,17 @@
                     <span class="hack-call">[hack-0-tron]</span>:
                     <blockquote>mua-ha-ha! you will never defeat me! i've sealed off your index.html file!</blockquote>
                     </p>
-                </div>
+                </div> <!-- end of "call-to-arms" div -->
                 <hr id="hr-two">
 
-            <section id="main-content">
+            <section id="change-content">
+                <div id="meta-note"> - - - <br/><br/>
+                    >_ this section contains things that you should change<br/>
+                    : do your best to change as much as possible! feel free to <span id="add-content">add(!)</span> new elements as well. <br/>
+                    : this is meant to be a fun, easy-going way to practice your js skills, mainly interacting with dom elements.<br/>
+                    :: have fun!<br/><br/>
+                    - - -
+                    </div>
                 <p id="change-paragraph">here is a brief history of the amazing force that is the <span id="samurai-insert">samurai-unicorn</span>:<br/>
                     they are a strong and powerful group that have existed for thousands of years...<br/><br/>
                 <div class="bad-ninja">[: ha-ha-ha! i've inserted this here! ninjas tremble before the mighty unicorns! :]</div><br/>
@@ -87,21 +93,21 @@
                     <li>unicorns are versatile and magical</li>
                     <li>combined, the two are unstoppable!</li>
                 </ol>
-            </section> <!-- end "main-content" section -->
-        </div> <!-- end "main-container" div -->
+            </section> <!-- end "change-content" section -->
         <hr class="hr-foot">
         <hr class ="hr-foot">
-        <footer>
-            <div class="footer-content">
-                <h3 id="closing-heading">mission accomplished?</h3>
-                <p id="close-content">:did you save the robot-ninja squad?<br/>
-                    : hopefully you modified and removed some of the changes <br/>
-                    : feel free to make even more changes and add new elements<br/>
-                    :: try to do as much as possible with javascript instead of html ;]<br/>
-                    : once done, push your changes to your github for much win!<br/><br/>
-                </p>
-            </div>
-        </footer>
+            <footer>
+                <div class="footer-content">
+                    <h3 id="closing-heading">mission accomplished?</h3>
+                    <p id="close-content">:did you save the robot-ninja squad?<br/>
+                        : hopefully you modified and removed some of the changes <br/>
+                        : feel free to make even more changes and add new elements<br/>
+                        :: try to do as much as possible with javascript instead of html ;]<br/>
+                        : once done, push your changes to your <a href="github.com">github</a> for much win!<br/><br/>
+                    </p>
+                </div>
+            </footer>
+        </div> <!-- end "main-container" div -->
         <script type="text/javascript" src="projectone.js"</script>
     </body>
 </html>
