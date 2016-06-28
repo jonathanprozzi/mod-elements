@@ -6,3 +6,12 @@ body {
     color: #4EEE94;
     font-family: monospace;
 }
+
+.main-container {
+    width: 100%;
+    margin-left: 1rem;
+}
+
+a {
+    color: #eee8d5;
+}
